@@ -125,18 +125,18 @@
             text-align: right;
         }
 
-        .left:before,
-        .right:before {
+        .left::before,
+        .right::before {
             content: "";
             width: 350px;
             height: 200px;
         }
 
-        .left:before {
+        .left::before {
             float: right;
         }
 
-        .right:before {
+        .right::before {
             float: left;
         }
 
@@ -188,17 +188,12 @@
             font-size: 24px;
             align-self: flex-end;
         }
-
-        .weploy-exclude {
-            font-size: xxx-large;
-        }
     </style>
 </head>
 
 <body>
     <header class="container">
         <h1>Curls</h1>
-        <div id="weploy-select"></div>
     </header>
     <hr class="first" />
     <main>
@@ -261,11 +256,7 @@
                         także
                         <span style="font-weight: bold; text-decoration: underline">wszystkich</span>
                         potencjalnych klientów, którzy szukają uczciwej,
-                        <span style="
-                  font-weight: bold;
-                  text-decoration: underline;
-                  font-size: 40px;
-                ">profesjonalnej</span>
+                        <span style="font-weight: bold; text-decoration: underline; font-size: 40px;">profesjonalnej</span>
                         hurtowni fryzjerskiej, oferującej jednocześnie szeroki asortyment
                         produktów.
                     </p>
@@ -298,8 +289,6 @@
         <p>&copy; Navumovich</p>
     </footer>
     <!--Maksim Navumovich -->
-    <script src="https://unpkg.com/weploy-translate/dist/weploy-translate.js"
-    data-weploy-key="7c3e552c-954a-4fa1-909c-740005848028"></script>
 </body>
 
 </html>
